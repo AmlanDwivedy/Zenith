@@ -27,7 +27,7 @@ fun String?.getNotNullInt(defaultValue: Int = 0): Int {
 
 
 fun getInt(anyValue: Any?, defaultValue: Int = 0): Int {
-    return anyValue.toString().getNotNullInt()
+    return anyValue.toString().getNotNullInt(defaultValue)
 }
 
 
